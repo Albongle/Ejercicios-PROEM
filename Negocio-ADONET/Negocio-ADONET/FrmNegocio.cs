@@ -27,7 +27,7 @@ namespace Negocio_ADONET
             try
             {
                 int id = int.Parse(this.txtIdBuscar.Text);
-                Cliente cliente = negocio[id];
+                Cliente cliente = this.negocio[id];
                 MessageBox.Show(cliente.ToString(), "Cliente encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }catch(Exception ex)
@@ -94,6 +94,26 @@ namespace Negocio_ADONET
             else
             {
                 MessageBox.Show("No selecciono ningun cliente para editar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            Cliente? cliente = this.dgvClientes.CurrentRow.DataBoundItem as Cliente;
+            
+            if(cliente != null)
+            {
+                try
+                {
+                    this.negocio -= cliente;
+                    this.dgvClientes.DataSource = null;
+                    this.dgvClientes.DataSource = this.negocio.Clientes;
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message,"Error", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                }
+                
             }
         }
     }

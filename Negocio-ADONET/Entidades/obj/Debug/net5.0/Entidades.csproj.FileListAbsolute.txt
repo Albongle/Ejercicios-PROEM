@@ -14,6 +14,7 @@ F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\bin\Debug\net5.0\Entidades
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\bin\Debug\net5.0\Entidades.dll
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\bin\Debug\net5.0\ref\Entidades.dll
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\bin\Debug\net5.0\Entidades.pdb
+F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
 F:\PROEM\Proyectos C#\Clases\Negocio-ADONET\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs

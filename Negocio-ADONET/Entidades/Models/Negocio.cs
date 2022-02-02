@@ -61,6 +61,25 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Elimina un cliente
+        /// </summary>
+        /// <param name="negocio"></param>
+        /// <param name="cliente"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception">Error en delete</exception>
+        public static Negocio operator - (Negocio negocio, Cliente cliente)
+        {
+            try
+            {
+                GestorSQL.DeleteCliente(cliente.Id);    
+            }catch (Exception ex)
+            {
+                throw new Exception("No se puedo eliminar", ex);
+            }
+            return negocio; 
+        }
+
         
     }
 }

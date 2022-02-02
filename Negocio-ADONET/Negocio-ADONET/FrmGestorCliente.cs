@@ -13,7 +13,7 @@ namespace Negocio_ADONET
 {
     public partial class FrmGestorCliente : Form
     {
-        Cliente cliente;
+        private Cliente cliente;
         public enum EGestorCliente { Alta, Modificacion };
         private EGestorCliente solicitud;
         public FrmGestorCliente(EGestorCliente solicitud)
@@ -29,7 +29,7 @@ namespace Negocio_ADONET
             try
             {
                 int telefono = int.Parse(this.txtTelefono.Text);
-                cliente = this.solicitud == EGestorCliente.Alta ? cliente =
+                this.cliente = this.solicitud == EGestorCliente.Alta ? cliente =
                 new Cliente(this.txtNombre.Text, this.txtApellido.Text, this.txtDireccion.Text, telefono)
                 : new Cliente(this.cliente.Id, this.txtNombre.Text, this.txtApellido.Text, this.txtDireccion.Text, telefono);
                 this.DialogResult = DialogResult.OK;

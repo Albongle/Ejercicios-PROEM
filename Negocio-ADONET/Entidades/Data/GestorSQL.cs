@@ -31,6 +31,7 @@ namespace Entidades
                     connection.Open();
                 }
                 SqlDataReader reader = command.ExecuteReader();
+
                 return reader.Read() == false ? throw new Exception("Cliente no encontrado") : new Cliente(reader.GetInt32(0), reader.GetString(1),
                     reader.GetString(2), reader.GetString(3), reader.GetInt32(4));
             }
@@ -109,6 +110,27 @@ namespace Entidades
             }
 
             throw new Exception("No se recibio el cliente a Editar");
+        }
+
+
+        public static bool DeleteCliente (int id)
+        {
+            bool returnAux = false;
+            string sentencia = "DELETE FROM [.NET-PROEM].DBO.clientes WHERE id = @id";
+            using (SqlConnection connection = new SqlConnection(GestorSQL.conexion))
+            {
+                SqlCommand command = new SqlCommand(sentencia, connection);
+                command.Parameters.AddWithValue("id", id);
+                if(connection.State != System.Data.ConnectionState.Open)
+                {
+                    connection.Open (); 
+                }
+
+                command.ExecuteNonQuery (); 
+
+                returnAux = true;   
+                return returnAux;
+            }
         }
     }
 }
