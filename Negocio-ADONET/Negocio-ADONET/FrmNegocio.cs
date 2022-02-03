@@ -27,8 +27,8 @@ namespace Negocio_ADONET
             try
             {
                 int id = int.Parse(this.txtIdBuscar.Text);
-                Cliente cliente = this.negocio[id];
-                MessageBox.Show(cliente.ToString(), "Cliente encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //Cliente cliente = this.negocio[id];
+                //MessageBox.Show(cliente.ToString(), "Cliente encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }catch(Exception ex)
             {
@@ -39,7 +39,7 @@ namespace Negocio_ADONET
 
         private void FrmNegocio_Load(object sender, EventArgs e)
         {
-            this.dgvClientes.DataSource = this.negocio.Clientes;
+            //this.dgvClientes.DataSource = this.negocio.Clientes;
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -52,7 +52,7 @@ namespace Negocio_ADONET
                 {
                     this.negocio += frmGestor.Cliente;
                     this.dgvClientes.DataSource = null;
-                    this.dgvClientes.DataSource = this.negocio.Clientes;
+                    //this.dgvClientes.DataSource = this.negocio.Clientes;
                 }
                 catch(Exception ex)
                 {
@@ -79,7 +79,7 @@ namespace Negocio_ADONET
                     {
                         this.negocio |= frmGestor.Cliente;
                         this.dgvClientes.DataSource = null;
-                        this.dgvClientes.DataSource = this.negocio.Clientes;
+                        //this.dgvClientes.DataSource = this.negocio.Clientes;
                     }
                     catch (Exception ex)
                     {
@@ -107,7 +107,7 @@ namespace Negocio_ADONET
                 {
                     this.negocio -= cliente;
                     this.dgvClientes.DataSource = null;
-                    this.dgvClientes.DataSource = this.negocio.Clientes;
+                    //this.dgvClientes.DataSource = this.negocio.Clientes;
                 }
                 catch(Exception ex)
                 {

@@ -16,7 +16,7 @@ namespace Entidades
             this.nombre = nombre;   
         }
 
-        public List<Cliente> Clientes { get => GestorSQL.GetClientes(); }
+        //public List<Cliente> Clientes { get => GestorSQL.GetClientes(); }
         public string Nombre { get => this.nombre; set => this.nombre = value; }
 
         public static Negocio operator +(Negocio negocio, Cliente cliente)
@@ -36,7 +36,7 @@ namespace Entidades
         {
             try
             {
-                GestorSQL.EditCliente(cliente);
+                //GestorSQL.EditCliente(cliente);
             }
             catch (Exception ex)
             {
@@ -46,20 +46,20 @@ namespace Entidades
             return negocio;
         }
 
-        public Cliente this [int id]
-        {
-            get
-            {
-                if (id > 0)
-                {
-                    return GestorSQL.GetClienteById(id);
-                }
-                else
-                {
-                    throw new Exception("Id invalido o inexistente");
-                }
-            }
-        }
+        //public Cliente this [int id]
+        //{
+        //    get
+        //    {
+        //        if (id > 0)
+        //        {
+        //            //return GestorSQL.GetClienteById(id);
+        //        }
+        //        else
+        //        {
+        //            throw new Exception("Id invalido o inexistente");
+        //        }
+        //    }
+        //}
 
         /// <summary>
         /// Elimina un cliente
@@ -72,7 +72,7 @@ namespace Entidades
         {
             try
             {
-                GestorSQL.DeleteCliente(cliente.Id);    
+                //GestorSQL.DeleteCliente(cliente.Id);    
             }catch (Exception ex)
             {
                 throw new Exception("No se puedo eliminar", ex);

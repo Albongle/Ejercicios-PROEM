@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using Entidades.Models;
 
 namespace Negocio_ADONET
 {
@@ -29,9 +30,17 @@ namespace Negocio_ADONET
             try
             {
                 int telefono = int.Parse(this.txtTelefono.Text);
-                this.cliente = this.solicitud == EGestorCliente.Alta ? cliente =
-                new Cliente(this.txtNombre.Text, this.txtApellido.Text, this.txtDireccion.Text, telefono)
-                : new Cliente(this.cliente.Id, this.txtNombre.Text, this.txtApellido.Text, this.txtDireccion.Text, telefono);
+                if(this.solicitud == EGestorCliente.Alta)
+                {
+                    this.cliente = new Cliente(this.txtNombre.Text,this.txtApellido.Text, telefono);
+                    this.cliente.Direccion = new Direccion("Santa Fe", "San Lorenzo", "Aberdi 123");
+                }
+                else
+                {
+                    this.cliente = new Cliente(this.cliente.Id,this.txtNombre.Text, this.txtApellido.Text, telefono);
+
+                }
+     
                 this.DialogResult = DialogResult.OK;
                 this.Close();
             }
@@ -52,7 +61,7 @@ namespace Negocio_ADONET
                 this.txtApellido.Text = this.cliente.Apellido;
                 this.txtNombre.Text = this.cliente.Nombre;
                 this.txtTelefono.Text = this.cliente.Telefono.ToString();
-                this.txtDireccion.Text = this.cliente.Direccion;
+                this.txtDireccion.Text = this.cliente.Direccion.Calle;
             }
             else
             {
