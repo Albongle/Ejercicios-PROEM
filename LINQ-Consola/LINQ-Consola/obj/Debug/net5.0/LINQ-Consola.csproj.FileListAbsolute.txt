@@ -1,0 +1,16 @@
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.exe
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.deps.json
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.runtimeconfig.json
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.runtimeconfig.dev.json
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.dll
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\ref\LINQ-Consola.dll
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\bin\Debug\net5.0\LINQ-Consola.pdb
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.csproj.AssemblyReference.cache
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.AssemblyInfoInputs.cache
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.AssemblyInfo.cs
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.csproj.CoreCompileInputs.cache
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.dll
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\ref\LINQ-Consola.dll
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.pdb
+F:\PROEM\Proyectos C#\Clases\LINQ-Consola\LINQ-Consola\obj\Debug\net5.0\LINQ-Consola.genruntimeconfig.cache
