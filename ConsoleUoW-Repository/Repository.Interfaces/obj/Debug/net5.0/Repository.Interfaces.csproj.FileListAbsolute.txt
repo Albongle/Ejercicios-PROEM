@@ -1,0 +1,15 @@
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.deps.json
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\ref\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\Repository.Interfaces.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\Entidades.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\bin\Debug\net5.0\Entidades.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.AssemblyReference.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.AssemblyInfoInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.AssemblyInfo.cs
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.CoreCompileInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.csproj.CopyComplete
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\ref\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.Interfaces\obj\Debug\net5.0\Repository.Interfaces.pdb

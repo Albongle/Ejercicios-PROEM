@@ -1,0 +1,17 @@
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\UnitOfWork.Interfaces.deps.json
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\UnitOfWork.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\ref\UnitOfWork.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\UnitOfWork.Interfaces.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\Entidades.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\Repository.Interfaces.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\bin\Debug\net5.0\Entidades.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.csproj.AssemblyReference.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.AssemblyInfoInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.AssemblyInfo.cs
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.csproj.CoreCompileInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.csproj.CopyComplete
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\ref\UnitOfWork.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\UnitOfWork.Interfaces\obj\Debug\net5.0\UnitOfWork.Interfaces.pdb

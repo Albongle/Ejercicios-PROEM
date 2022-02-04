@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f63bccf-1c32-4a3f-856b-7f05d41aadaa": {
+      "ProjectGuid": "1f63bccf-1c32-4a3f-856b-7f05d41aadaa",
+      "DisplayName": "ConsoleUoW-Repository",
+      "ColorIndex": 0
+    },
+    "284f6d45-2f73-4b0b-9aa6-3e4ba2218279": {
+      "ProjectGuid": "284f6d45-2f73-4b0b-9aa6-3e4ba2218279",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "3e4eace3-250f-4cdd-bcd1-a2edce8a74b0": {
+      "ProjectGuid": "3e4eace3-250f-4cdd-bcd1-a2edce8a74b0",
+      "DisplayName": "UnitOfWork.Interfaces",
+      "ColorIndex": 2
+    },
+    "4b3309d9-a3e7-486f-9d20-463fcff7c3a2": {
+      "ProjectGuid": "4b3309d9-a3e7-486f-9d20-463fcff7c3a2",
+      "DisplayName": "UnitOfWork.SqlServer",
+      "ColorIndex": 3
+    },
+    "fd522dc6-ec62-462c-a9d6-9585152f1cb0": {
+      "ProjectGuid": "fd522dc6-ec62-462c-a9d6-9585152f1cb0",
+      "DisplayName": "Repository.Interfaces",
+      "ColorIndex": 4
+    },
+    "8ce3046f-e1be-4183-a617-4dcc352442ef": {
+      "ProjectGuid": "8ce3046f-e1be-4183-a617-4dcc352442ef",
+      "DisplayName": "Repository.SqlServer",
+      "ColorIndex": 5
+    },
+    "482125b4-4e82-4dfa-93ef-ddf1f4d841c3": {
+      "ProjectGuid": "482125b4-4e82-4dfa-93ef-ddf1f4d841c3",
+      "DisplayName": "GestorBD",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

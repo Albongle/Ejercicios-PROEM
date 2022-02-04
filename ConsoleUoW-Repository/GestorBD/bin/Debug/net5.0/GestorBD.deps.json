@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GestorBD/1.0.0": {
+        "dependencies": {
+          "UnitOfWork.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "GestorBD.dll": {}
+        }
+      },
+      "Entidades/1.0.0": {
+        "runtime": {
+          "Entidades.dll": {}
+        }
+      },
+      "Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "Entidades": "1.0.0"
+        },
+        "runtime": {
+          "Repository.Interfaces.dll": {}
+        }
+      },
+      "UnitOfWork.Interfaces/1.0.0": {
+        "dependencies": {
+          "Repository.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "UnitOfWork.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestorBD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnitOfWork.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

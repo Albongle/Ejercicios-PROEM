@@ -1,0 +1,17 @@
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Repository.SqlServer.deps.json
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Repository.SqlServer.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\ref\Repository.SqlServer.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Repository.SqlServer.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Entidades.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Repository.Interfaces.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Repository.Interfaces.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\bin\Debug\net5.0\Entidades.pdb
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.csproj.AssemblyReference.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.AssemblyInfoInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.AssemblyInfo.cs
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.csproj.CoreCompileInputs.cache
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.csproj.CopyComplete
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\ref\Repository.SqlServer.dll
+F:\PROEM\Proyectos C#\Clases\ConsoleUoW-Repository\Repository.SqlServer\obj\Debug\net5.0\Repository.SqlServer.pdb

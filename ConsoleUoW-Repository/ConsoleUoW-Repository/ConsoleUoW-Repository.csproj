@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ConsoleUoW_Repository</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\GestorBD\GestorBD.csproj" />
+    <ProjectReference Include="..\Repository.Interfaces\Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\Repository.SqlServer\Repository.SqlServer.csproj" />
+    <ProjectReference Include="..\UnitOfWork.Interfaces\UnitOfWork.Interfaces.csproj" />
+    <ProjectReference Include="..\UnitOfWork.SqlServer\UnitOfWork.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>
