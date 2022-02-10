@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\GestorBD.csproj",
+      "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\GestorBD.csproj",
       "projectName": "GestorBD",
-      "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\GestorBD.csproj",
+      "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\GestorBD.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\obj\\",
+      "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\GestorBD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,8 +94,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj": {
-              "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj"
+            "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj": {
+              "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj"
             }
           }
         }
@@ -124,7 +124,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

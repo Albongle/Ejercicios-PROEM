@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework.csproj": {}
+  },
+  "projects": {
+    "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework.csproj",
+        "projectName": "ConsolaEntityFramework",
+        "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj": {
+                "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+        "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

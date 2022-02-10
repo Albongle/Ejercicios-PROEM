@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Aupj25a5Dd1NCx7fH62mDqDot4ju6D3LbNyv0PGHWXGc2wZADWZ0eHlJEmFXJQpmHqKQ9A+LANL23dwjmfFHMQ==",
+  "dgSpecHash": "t/aypQ2LLfL+w/GR1YbZ3wUTSC7AGF0B/6uve4nd0RMoMjUatded3rgNyEHrj5beyIV6NRzkx9OoLLIekHupSQ==",
   "success": true,
-  "projectFilePath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
+  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

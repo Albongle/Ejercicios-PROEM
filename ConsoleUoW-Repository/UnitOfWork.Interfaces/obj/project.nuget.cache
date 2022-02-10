@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "or28hOuHhMwUUm0fOGnXtKlBQs/GdYZBnjq1BaKZMdREJUW5IFVUu1Mg5yBpR/rD18NUGVZY+KRw7Bq14q1seg==",
+  "dgSpecHash": "gbGvb2bu2gwXDJTNq7yakbiC/+43fyIVQZcF7olka3leAAlBtf+crQ1lCk6ZLIl0iLlKSw39kmFFBGLohPQrBg==",
   "success": true,
-  "projectFilePath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj",
+  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -532,11 +532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
+      "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
       "projectName": "UnitOfWork.SqlServer",
-      "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
+      "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\UnitOfWork.SqlServer.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\obj\\",
+      "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.SqlServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -557,11 +557,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Repository.SqlServer\\Repository.SqlServer.csproj": {
-              "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Repository.SqlServer\\Repository.SqlServer.csproj"
+            "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Repository.SqlServer\\Repository.SqlServer.csproj": {
+              "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Repository.SqlServer\\Repository.SqlServer.csproj"
             },
-            "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj": {
-              "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj"
+            "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj": {
+              "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\UnitOfWork.Interfaces\\UnitOfWork.Interfaces.csproj"
             }
           }
         }
@@ -596,7 +596,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

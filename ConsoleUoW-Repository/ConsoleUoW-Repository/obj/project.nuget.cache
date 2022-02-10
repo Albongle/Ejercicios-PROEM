@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7iOxzwrbI2RExsIYgAoGUYwH256YXbo8qM+eAkLJXZuDKnKCc/BhLG/v30MHlB0Wm6VZ7UYANrFsp31fO2iiaQ==",
+  "dgSpecHash": "UFtWJo3ASe/UlosH4+/YJAtAFp5cP/ivBZwKqS6KZracB09Rwqqw9ZNKyD9Wxz3O+4P8qPMPVA7budOP+5xapw==",
   "success": true,
-  "projectFilePath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\ConsoleUoW-Repository\\ConsoleUoW-Repository.csproj",
+  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\ConsoleUoW-Repository\\ConsoleUoW-Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

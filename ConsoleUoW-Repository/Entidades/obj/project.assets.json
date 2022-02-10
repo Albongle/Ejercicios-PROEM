@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\Entidades.csproj",
+      "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "F:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\obj\\",
+      "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsoleUoW-Repository\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,15 @@
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\Entidades.deps.json
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\Entidades.runtimeconfig.json
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\Entidades.runtimeconfig.dev.json
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\Entidades.dll
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\bin\Debug\net5.0\Entidades.pdb
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.dll
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.pdb
+E:\PROEM\Proyectos C#\Clases\ConsolaEntityFramework-CODEFIRST\Entidades\obj\Debug\net5.0\Entidades.genruntimeconfig.cache

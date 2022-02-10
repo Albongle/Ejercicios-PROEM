@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "788fe7e5-aff7-4f44-bef2-6808920d4646": {
+      "ProjectGuid": "788fe7e5-aff7-4f44-bef2-6808920d4646",
+      "DisplayName": "ConsolaEntityFramework-CODEFIRST",
+      "ColorIndex": 0
+    },
+    "71447a58-c80f-4065-aee6-952e3b16fccb": {
+      "ProjectGuid": "71447a58-c80f-4065-aee6-952e3b16fccb",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
