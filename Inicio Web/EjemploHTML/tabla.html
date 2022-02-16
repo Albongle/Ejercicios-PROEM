@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favIcon.ico" type="image/x-icon" />
+    <title>Mi Pagina - Tabla</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./formulario.html">Formulario</a></li>
+          <li>
+            Sublistas
+            <ul>
+              <li><a href="./tabla.html">Tabla</a></li>
+              <li>sub 2</li>
+              <li>sub 3</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>Tabla</h1>
+    </header>
+    <style>
+
+        th,td{
+            border: solid 1px;
+        }
+    </style>
+    <main style="width:400px">
+
+        <table style="border: solid 1px black; border-collapse: collapse;">
+            <thead >
+                <tr>
+                    <th colspan="2">Col 1</th>
+                    <th>Col 2</th>
+                    <th>Col 3</th>
+                    <th>Col 4</th>
+               
+      
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>resultado 1</td>
+                    <td>resultado 2</td>
+                    <td>resultado 3</td>
+                    <td>resultado 4</td>
+                    <td>resultado 5</td>
+                </tr>
+            </tfoot>
+
+
+        </table>
+    </main>
+  </body>
+</html>

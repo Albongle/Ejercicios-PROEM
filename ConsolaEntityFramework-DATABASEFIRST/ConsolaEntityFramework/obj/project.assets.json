@@ -5725,11 +5725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
+      "projectUniqueName": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
       "projectName": "ConsolaEntityFramework-DBFIRST",
-      "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
+      "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\obj\\",
+      "outputPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\ConsolaEntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5750,8 +5750,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj": {
-              "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj"
+            "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\Entidades\\Entidades.csproj": {
+              "projectPath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\Entidades\\Entidades.csproj"
             }
           }
         }

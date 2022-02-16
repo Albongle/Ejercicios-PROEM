@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z6AH5IUwj6vCgoAnWjHieDCylYrQHChxQxyB9nc83zZl5gQDIENwqyUzNBHbnxWBPRY29klLdTAflLYty0QHPg==",
+  "dgSpecHash": "EQzvFnv/H9Xk9S/rqKiyuB8PtetKsyFQxP3xwbjMvTxGVtaKlNIKfw5EMw4cbOuQk49q2ORFP9pXmOwdwmmFzA==",
   "success": true,
-  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
+  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\ConsolaEntityFramework\\ConsolaEntityFramework-DBFIRST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

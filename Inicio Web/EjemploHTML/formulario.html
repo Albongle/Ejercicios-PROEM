@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favIcon.ico" type="image/x-icon" />
+    <title>Mi Pagina - Formulario</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Formulario</a></li>
+            <li>
+              Sublistas
+              <ul>
+                <li><a href="./tabla.html">Tabla</a></li>
+                <li>sub 2</li>
+                <li>sub 3</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <h1>Formulario</h1>
+      </header>
+
+      <main>
+
+
+
+        <form action="/api/productos" method="get">
+            <!-- <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required> -->
+            <fieldset>
+                <legend>Datos</legend>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" name="apellido" required placeholder="Apellido">
+            </fieldset>
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="masculino">Maculino</label>
+                <input type="radio" id="masculino" name="sexo">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="femenino" name="sexo">
+                <label for="nobin">No Binario</label>
+                <input type="radio" id="nobin" name="sexo">
+            </fieldset>
+            <select name="provincias" id="provincias">
+                <optgroup label="Provincias">
+                <option value="Buenos Aires">BS AS</option>
+                <option value="Entre Rios">ENTRE RIOS</option>
+                <option value="SANTA FE">SANTA FE</option></optgroup>
+                <optgroup label="Localidades">
+        
+                <option value="Lanus">LANUS</option>
+                <option value="Ldz">LOMAS DE ZAMORA</option>
+                <option value="Avellaneda">AVELLANEDA</option></optgroup>
+            </select>
+            <input type="password" placeholder="Password" required>
+            <!-- <input type="color" name="" id=""> -->
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <input type="submit" value="Enviar">
+            <input type="Reset">
+            <input type="button" value="MiBoton" id="miBtn">
+
+
+            <fieldset>
+                <legend>Mensaje</legend>
+                <textarea style="resize: none;" name="mensaje" id="mensaje" cols="30" rows="10" maxlength="150" minlength="5" placeholder="Mi Mensaje"></textarea>
+            </fieldset>
+            <input type="number" max="100" min="10" step="5" placeholder="Esto es un numero">
+            <input type="date"" id="">
+            <input type="datetime" id="">
+            <input type="file" name="" id="">
+
+
+            <fieldset>
+                <legend>CheckBox</legend>
+                <label for="peliculas">Peliculas</label>
+                <input type="checkbox" name="peliculas" id="peliculas">
+                <label for="musica">Musica</label>
+                <input type="checkbox" name="musica" id="musica">
+                <label for="leer">Leer</label>
+                <input type="checkbox" name="leer" id="leer">
+            </fieldset>
+
+
+
+
+
+        </form>
+      </main>
+
+
+      <script>
+        document.getElementById("miBtn").addEventListener("click",()=>{
+            alert("Hola Mundo");
+        })
+    </script>
+    
+</body>
+</html>

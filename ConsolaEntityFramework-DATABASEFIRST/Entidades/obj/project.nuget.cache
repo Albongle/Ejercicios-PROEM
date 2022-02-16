@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yLiUF6+aWGVovJZYRQs2rfTzbhCsd4QGC/ame75Z4UDCY9fNc7THk6iXGI2Wop4cbhsARxuU0QrS09+b6gHJWg==",
+  "dgSpecHash": "8IfeUfO7yllZWNKwUQ7alqKm9u3BGYKeBRjLehE7OrybkS64DaqVd6g9nrUDxV5RV2ydKslgQ4fLoKQKMx9uZQ==",
   "success": true,
-  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework\\Entidades\\Entidades.csproj",
+  "projectFilePath": "E:\\PROEM\\Proyectos C#\\Clases\\ConsolaEntityFramework-DATABASEFIRST\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

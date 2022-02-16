@@ -12,16 +12,16 @@ namespace ConsolaEntityFramework
         {
 
             //Alta de Usuario
-            //using(MyDataBase db = new MyDataBase())
-            //{
-            //    Direccione dr = new Direccione { Provincia = "BSAS", Localidad = "Lanus", Direccion = "Direccion 124" };
-            //    db.Direcciones.Add(dr).State = EntityState.Added;
-            //    Persona persona = new Persona { Nombre = "Jose", Apellido = "Perez", IdDireccion = dr.Id , IdDireccionNavigation=dr};
-            //    db.Personas.Add(persona).State = EntityState.Added;
-            //    db.SaveChanges();
+            using (MyDataBase db = new MyDataBase())
+            {
+                Direccione dr = new Direccione { Provincia = "BSAS", Localidad = "Lanus", Direccion = "Direccion 124" };
+                db.Direcciones.Add(dr).State = EntityState.Added;
+                Persona persona = new Persona { Nombre = "Jose", Apellido = "Perez", IdDireccion = dr.Id, IdDireccionNavigation = dr };
+                db.Personas.Add(persona).State = EntityState.Added;
+                db.SaveChanges();
 
-            //    Console.WriteLine("Termine de Agregar");
-            //}
+                Console.WriteLine("Termine de Agregar");
+            }
 
             //using(MyDataBase db = new MyDataBase())
             //{
@@ -57,11 +57,7 @@ namespace ConsolaEntityFramework
 
             using (MyDataBase db = new MyDataBase())
             {
-                Persona p = db.Personas.Where(p => p.Id == 3).First();
-
-                db.Update(p).State= EntityState.Deleted;
-                db.SaveChanges();
-                Console.WriteLine("Termine de Elimar");
+                var result = db.Personas.Include(d => d.IdDireccionNavigation).ToList();
             }
 
 
