@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; 
+}
+
+
+
+body{
+    background-color: brown;
+}
+
+
+
+
+.header{
+    background-color:slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:sticky;
+    top: 0;
+}
+
+
+.header__img{
+    width: 6.4rem;
+}
+.nav__lista{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.nav__lista li{
+    margin: 1rem;
+    list-style-type: none;
+
+}
+
+.nav__lista li a{
+
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+
+    
+}
+.nav__lista li a:hover{
+
+    background-color: aliceblue;
+    color: slategray;
+
+    
+}
+
+.importante{
+    background-color: yellow;
+    border: .1rem dashed red;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mainPrincipal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.mainPrincipal article{
+    font-size: 2rem;
+    margin: 2rem;
+    width: 40rem;
+    height: 40rem;
+    background-color: olive;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 1rem 1rem 5rem white;
+}
+
+.mainPrincipal article:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+    transition-delay: .2s;
+    
+
+}
+
+
+.whatsapp{
+    position: fixed;
+    top:80rem;
+    left: 95vw;
+}
+.miAside{
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.footer{
+    background-color:slategray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer p{
+
+    font-size: 2rem;
+    color: white;
+
+}
+
+
+@media(max-width:760px){
+    .header{
+
+        justify-content: center;
+
+    }
+    .miAside{
+        display: none;
+    }
+    .footer{
+
+        justify-content: center;
+
+    }
+
+}
