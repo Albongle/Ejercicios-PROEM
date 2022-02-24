@@ -89,6 +89,17 @@ body{
     box-shadow: 1rem 1rem 5rem white;
 }
 
+.mainPrincipal .cambiarColorArticulo{
+    background-color: violet;
+
+}
+.mainPrincipal .cambiarColorArticulo2{
+    background-color: red;
+
+}
+
+
+
 .mainPrincipal article:hover{
     cursor: pointer;
     transform: scale(1.2,1.2);
@@ -98,6 +109,66 @@ body{
 
 }
 
+.dialogo{
+    border: .2rem dashed slateblue;
+    padding: 1rem;
+    position: fixed;
+    left: 32vw;
+    top: 40vh;
+    width: 50rem;
+    
+
+}
+.dialogo .form__dialog{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.dialogo .form__dialog input{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    border-radius: .5rem;
+    
+}
+.dialogo .form__dialog .btnCerrar__form{
+    position: absolute;
+    margin: 0;
+    left: 89%;
+    top: 2%;
+    width: 5rem;
+    background-color: tomato;
+    color: whitesmoke;
+    border: none;
+    padding: .5rem;
+    text-align: center;   
+
+}
+.dialogo .form__dialog .btnCerrar__form:hover{
+
+    cursor: pointer;
+}
+.dialogo .form__dialog .btnCerrar__form:active{
+
+    transform: scale(.9,.9);
+}
+.sexo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+}
+
+
+.dialogo .form__dialog fieldset{
+    display: flex;
+
+}
 
 .whatsapp{
     position: fixed;

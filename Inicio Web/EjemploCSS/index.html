@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/favIco.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" defer />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="./scripts/main.js" type="module"></script>
     <title>Documento con CSS</title>
   </head>
   <body>
     <header class="header">
-      <img class="header__img animate__animated animate__bounce" src="./images/logo.png" alt="logo" />
+      <img
+        class="header__img animate__animated animate__bounce"
+        src="./images/logo.png"
+        alt="logo"
+      />
       <nav class="header__nav">
         <ul class="nav__lista">
           <li><a href="#">Home</a></li>
           <li><a href="#">Contactanos</a></li>
-          <li><a href="#">Nosotros</a></li>
+          <li><a id="openForm" >Formulario</a></li>
         </ul>
       </nav>
     </header>
@@ -24,14 +32,40 @@
     <p class="importante">Esto es un aviso importante</p>
 
     <div class="contenedor">
-        <dialog class="dialogo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit alias, fugiat beatae eveniet dolorem animi sapiente aliquid quibusdam obcaecati. Ut omnis doloribus, veniam laborum tempore et. Soluta non at aspernatur?</p>
-        
-            <input type="button" value="Cerrar">
-        
-        </dialog>
+
+
+
+
+      
+      <dialog id ="dialogo" class="dialogo">
+        <form id = "formulario" class="form__dialog">
+          <input class="btnCerrar__form" id="btnCerrar" type="button" value="Cerrar" />
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+          <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+          <input type="number" name="edad" id="edad" placeholder="Edad" min="12" max="112" required>
+          <fieldset class="sexo">
+            <legend>Sexo</legend>
+            <div>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino" /></div>
+            <div>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="sexo" value="femenino" /></div>
+          </fieldset>
+          <input  id="btnEnviar" type="button" value="Agregar" />
+          
+        </form>        
+      </dialog>
+
+
+
+
+
+
       <main class="mainPrincipal">
-        <article class="animate__animated animate__backInUp">Articulo 1</article>
+        <article id="articuloModificado">
+          Articulo 1
+        </article>
         <article>Articulo 2</article>
         <article>Articulo 3</article>
         <article>Articulo 4</article>
@@ -39,8 +73,12 @@
       </main>
 
       <aside class="miAside">Este es mi aside</aside>
-      <a class="whatsapp animate__animated animate__bounceInLeft" target="__blank"href="https://api.whatsapp.com/send?phone=+111111&text=Hola&nbsp;como&nbsp;estas?"><img src="./images/Whatsapp.ico" alt=""></a>
-      
+      <a
+        class="whatsapp animate__animated animate__bounceInLeft"
+        target="__blank"
+        href="https://api.whatsapp.com/send?phone=+111111&text=Hola&nbsp;como&nbsp;estas?"
+        ><img src="./images/Whatsapp.ico" alt=""
+      /></a>
     </div>
 
     <footer class="footer">
@@ -53,5 +91,16 @@
         </ul>
       </nav>
     </footer>
-  </body>
+
+    
+    </body>
+
+
+
+
+
+
+
+    
+
 </html>
