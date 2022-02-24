@@ -61,19 +61,12 @@ function handlerOpenForm()
 
 
 
-fetch("https://uncovered-satisfying-kale.glitch.me/api/personas")
+fetch("https://localhost:44318/api/persona/1")
 .then(res=> res.ok ?  res.json() : Promise.reject({error : "Error"}))
 .then(data=>{
 
-    // 1 == "1"  true
-     // 1 === "1"  false
 
-    if(data.status == "ok")
-    {
-        console.log("respuesta ok del server");
-        console.log(data.data);
-    }
-
+    console.log(data);
 
 });
 
@@ -88,13 +81,12 @@ btnEnviar.addEventListener("click", ()=>{
         nombre: formulario.nombre.value,
         apellido:formulario.apellido.value,
         sexo :formulario.sexo.value,
-        edad:formulario.edad.value
     };
 
     console.log(persona);
 
 
-    fetch("https://uncovered-satisfying-kale.glitch.me/api/personas",
+    fetch("https://localhost:44318/api/persona/alta",
     {
         method:"POST",
         body:JSON.stringify(persona),
@@ -113,19 +105,19 @@ btnEnviar.addEventListener("click", ()=>{
 });
 
 
-function miPromesa(num)
-{
-    return new Promise((res,rej)=>{
+// function miPromesa(num)
+// {
+//     return new Promise((res,rej)=>{
 
-         if(num>10)
-         {
-             res("numero ok");
-         }else
-         {
-             rej("numero no ok");
-         }
+//          if(num>10)
+//          {
+//              res("numero ok");
+//          }else
+//          {
+//              rej("numero no ok");
+//          }
 
-    });
-}
+//     });
+// }
 
-miPromesa(5).then(data=>console.log(data)).catch(error=>console.log(error))
+// miPromesa(5).then(data=>console.log(data)).catch(error=>console.log(error))
